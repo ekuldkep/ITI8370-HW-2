@@ -7,8 +7,8 @@ I implemented cosine distance function and then compared it with Euclidean dista
 does not care about the weight or magnitude of the vectors.  
 I compared documents as follows: took one document and calculated distance(cosine and Euclidean) to every other document and then plotted it to the graph. 
 Cosine was more accurate because Euclidean did not take into account the fact that documents(text data case) can be similar even if the value in the same dimension differs a lot. 
-
 That could happen for example if one document is longer than the other etc.  
+
 2.	Clustering
 To visualize centroids, I had to implement PCA. Which is dimensionality reduction method. It sorts eigenvalues in descending order so it is possible to choose dimensionality
 count that is wanted. The bigger the eigenvalue the bigger the variance in this dimension. And that means that this dimension is the best describing this 
