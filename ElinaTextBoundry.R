@@ -4,7 +4,7 @@ library(class)
 
 # get the parsed data
 source('ReadInTextFile.R')
-source('pca.R') # TODO: remove
+
 
 # https://stackoverflow.com/questions/39822505/drawing-decision-boundaries-in-r
 # http://michael.hahsler.net/SMU/EMIS7332/R/viz_classifier.html
