@@ -19,9 +19,15 @@ For some, clusters were very well discriminated but for others not so well. I th
 contained many same words. 
 Tried it with Euclidian and cosine function and I did not see very big performance difference. 
 
+![text clustering after PCA](/Pictures/hw2DmCluster.JPG)
+
 **3.	Decision boundary**
+
+The purpose was to detect spam and visualize decision boundary.
 
 I used the same PCA code that I wrote for clustering and took again two best dimensions. 
 For plotting I used library that makes plane into a grid.
 And points inside grid were colored according to their nearest data points labels. 
 For decision boundary I plotted new points with third color. I looped through every point inside the grid and if any of its neighbours were from different class I drew a point. 
+
+![text spam classifier desicion boundary](/Pictures/hw2DmBoundary.JPG)
